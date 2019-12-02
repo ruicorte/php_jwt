@@ -154,7 +154,6 @@
                         login_form.find('input').val('');
                     }
                 });
-
                 return false;
             });
 
@@ -374,10 +373,8 @@
                     $('#response').html("<div class='alert alert-danger'>Please login to access the account page.</div>");
                 });
             }
-
             // function to make form values to json format
             $.fn.serializeObject = function() {
-
                 var o = {};
                 var a = this.serializeArray();
                 $.each(a, function() {
@@ -394,7 +391,6 @@
             };
         });
     </script>
-
 </body>
 
 </html>
